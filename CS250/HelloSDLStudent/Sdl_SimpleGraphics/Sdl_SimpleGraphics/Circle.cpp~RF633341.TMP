@@ -1,0 +1,19 @@
+//**************************************************************************** 
+// File name:	circle.cpp
+// Author:		Chadd Williams
+// Date:		1/13/2016
+// Class:		CS 250
+// Assignment:	SDL_SimpleAnimation
+// Purpose:		Build a class to represent a circle
+//*****************************************************************************
+
+#include "Circle.h"
+
+Circle::Circle(int x, int y, int radius, SDL_Color color) : mX(x), mY(y), mRadius (radius), mColor(color)
+{}
+
+void Circle::render(SDL_Renderer *pRenderer)
+{
+	filledCircleRGBA(pRenderer, mX, mY, mRadius, mColor.r, mColor.g, mColor.a, mColor.a);
+
+}

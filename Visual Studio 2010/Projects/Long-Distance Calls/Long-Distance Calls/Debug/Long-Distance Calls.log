@@ -1,0 +1,30 @@
+﻿Build started 9/19/2013 8:47:13 PM.
+     1>Project "c:\Users\Aidan\documents\visual studio 2010\Projects\Long-Distance Calls\Long-Distance Calls\Long-Distance Calls.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\Long-Distance Calls.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\Long-Distance Calls.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Long-Distance Calls.exe.embed.manifest.res" "Debug\Long-Distance Calls_manifest.rc" 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\aidan\documents\visual studio 2010\Projects\Long-Distance Calls\Debug\Long-Distance Calls.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Long-Distance Calls.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\users\aidan\documents\visual studio 2010\Projects\Long-Distance Calls\Debug\Long-Distance Calls.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\aidan\documents\visual studio 2010\Projects\Long-Distance Calls\Debug\Long-Distance Calls.lib" /MACHINE:X86 "Debug\Long-Distance Calls.exe.embed.manifest.res"
+         Debug\main.obj
+       Manifest:
+         Deleting file "Debug\Long-Distance Calls.exe.embed.manifest".
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Long-Distance Calls.exe.embed.manifest" /manifest "Debug\Long-Distance Calls.exe.intermediate.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Long-Distance Calls.exe.embed.manifest.res" "Debug\Long-Distance Calls_manifest.rc" 
+       LinkEmbedManifest:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\aidan\documents\visual studio 2010\Projects\Long-Distance Calls\Debug\Long-Distance Calls.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Long-Distance Calls.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\users\aidan\documents\visual studio 2010\Projects\Long-Distance Calls\Debug\Long-Distance Calls.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\aidan\documents\visual studio 2010\Projects\Long-Distance Calls\Debug\Long-Distance Calls.lib" /MACHINE:X86 "Debug\Long-Distance Calls.exe.embed.manifest.res"
+         Debug\main.obj
+         Long-Distance Calls.vcxproj -> c:\users\aidan\documents\visual studio 2010\Projects\Long-Distance Calls\Debug\Long-Distance Calls.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\Long-Distance Calls.unsuccessfulbuild".
+         Touching "Debug\Long-Distance Calls.lastbuildstate".
+     1>Done Building Project "c:\Users\Aidan\documents\visual studio 2010\Projects\Long-Distance Calls\Long-Distance Calls\Long-Distance Calls.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.64

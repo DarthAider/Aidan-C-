@@ -1,0 +1,29 @@
+﻿Build started 10/20/2013 8:28:25 PM.
+     1>Project "c:\Users\Aidan\documents\visual studio 2010\Projects\lind1468assignmentscomputer\05_Calender\05_Calender.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "c:\users\aidan\documents\visual studio 2010\Projects\lind1468assignmentscomputer\Debug\".
+       InitializeBuildStatus:
+         Creating "Debug\05_Calender.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\05_Calender.exe.embed.manifest.res" Debug\05_Calender_manifest.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\aidan\documents\visual studio 2010\Projects\lind1468assignmentscomputer\Debug\05_Calender.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\05_Calender.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\users\aidan\documents\visual studio 2010\Projects\lind1468assignmentscomputer\Debug\05_Calender.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\aidan\documents\visual studio 2010\Projects\lind1468assignmentscomputer\Debug\05_Calender.lib" /MACHINE:X86 Debug\05_Calender.exe.embed.manifest.res
+         Debug\main.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\05_Calender.exe.embed.manifest" /manifest Debug\05_Calender.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\05_Calender.exe.embed.manifest.res" Debug\05_Calender_manifest.rc 
+       LinkEmbedManifest:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\aidan\documents\visual studio 2010\Projects\lind1468assignmentscomputer\Debug\05_Calender.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\05_Calender.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\users\aidan\documents\visual studio 2010\Projects\lind1468assignmentscomputer\Debug\05_Calender.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\aidan\documents\visual studio 2010\Projects\lind1468assignmentscomputer\Debug\05_Calender.lib" /MACHINE:X86 Debug\05_Calender.exe.embed.manifest.res
+         Debug\main.obj
+         05_Calender.vcxproj -> c:\users\aidan\documents\visual studio 2010\Projects\lind1468assignmentscomputer\Debug\05_Calender.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\05_Calender.unsuccessfulbuild".
+         Touching "Debug\05_Calender.lastbuildstate".
+     1>Done Building Project "c:\Users\Aidan\documents\visual studio 2010\Projects\lind1468assignmentscomputer\05_Calender\05_Calender.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.67

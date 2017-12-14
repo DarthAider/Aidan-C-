@@ -1,0 +1,27 @@
+﻿Build started 12/5/2013 7:37:45 PM.
+     1>Project "C:\Users\Aidan\Desktop\lind1468LabsSecond\Final_review\Final_review.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Final_review.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\aidan\desktop\lind1468labssecond\final_review\main.cpp(16): warning C4101: 'data' : unreferenced local variable
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Aidan\Desktop\lind1468LabsSecond\Debug\Final_review.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Final_review.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Aidan\Desktop\lind1468LabsSecond\Debug\Final_review.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Aidan\Desktop\lind1468LabsSecond\Debug\Final_review.lib" /MACHINE:X86 Debug\Final_review.exe.embed.manifest.res
+         Debug\main.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Final_review.exe.embed.manifest" /manifest Debug\Final_review.exe.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         Final_review.vcxproj -> C:\Users\Aidan\Desktop\lind1468LabsSecond\Debug\Final_review.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\Final_review.unsuccessfulbuild".
+         Touching "Debug\Final_review.lastbuildstate".
+     1>Done Building Project "C:\Users\Aidan\Desktop\lind1468LabsSecond\Final_review\Final_review.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.41

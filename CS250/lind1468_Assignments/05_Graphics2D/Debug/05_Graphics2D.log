@@ -1,0 +1,21 @@
+﻿Build started 4/29/2016 1:18:13 AM.
+     1>Project "C:\Users\Aidan\Desktop\Computer Science SHIT\CS250\lind1468_Assignments\05_Graphics2D\05_Graphics2D.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt MovingCircle.cpp
+         MovingCircle.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\Aidan\Desktop\Computer Science SHIT\CS250\lind1468_Assignments\Debug\05_Graphics2D.lib" SDL2.lib SDL2main.lib SDL2_gfx.lib SDL2_ttf.lib /NOLOGO Debug\Circle.obj
+         Debug\Direction2D.obj
+         Debug\ExpandingCircle.obj
+         Debug\MovingCircle.obj
+         Debug\Speed.obj
+     1>SDL2_gfx.lib(SDL2_gfx.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in SDL2.lib(SDL2.dll); second definition ignored
+     1>SDL2_gfx.lib(SDL2_gfx.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>SDL2_ttf.lib(SDL2_ttf.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in SDL2.lib(SDL2.dll); second definition ignored
+     1>SDL2_ttf.lib(SDL2_ttf.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         05_Graphics2D.vcxproj -> C:\Users\Aidan\Desktop\Computer Science SHIT\CS250\lind1468_Assignments\Debug\05_Graphics2D.lib
+     1>Done Building Project "C:\Users\Aidan\Desktop\Computer Science SHIT\CS250\lind1468_Assignments\05_Graphics2D\05_Graphics2D.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.11

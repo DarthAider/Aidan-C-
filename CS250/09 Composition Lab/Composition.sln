@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Rational", "Rational\Rational.vcxproj", "{5DC700F6-4958-4EF9-87FB-03C6C161D7AD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RationalSet", "RationalSet\RationalSet.vcxproj", "{DECD22F9-905A-418F-BED6-B8058EE09414}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5DC700F6-4958-4EF9-87FB-03C6C161D7AD} = {5DC700F6-4958-4EF9-87FB-03C6C161D7AD}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5DC700F6-4958-4EF9-87FB-03C6C161D7AD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5DC700F6-4958-4EF9-87FB-03C6C161D7AD}.Debug|Win32.Build.0 = Debug|Win32
+		{5DC700F6-4958-4EF9-87FB-03C6C161D7AD}.Release|Win32.ActiveCfg = Release|Win32
+		{5DC700F6-4958-4EF9-87FB-03C6C161D7AD}.Release|Win32.Build.0 = Release|Win32
+		{DECD22F9-905A-418F-BED6-B8058EE09414}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DECD22F9-905A-418F-BED6-B8058EE09414}.Debug|Win32.Build.0 = Debug|Win32
+		{DECD22F9-905A-418F-BED6-B8058EE09414}.Release|Win32.ActiveCfg = Release|Win32
+		{DECD22F9-905A-418F-BED6-B8058EE09414}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
